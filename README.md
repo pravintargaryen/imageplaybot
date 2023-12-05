@@ -1,5 +1,5 @@
 # Project Overview
-Hello Devs 👋
+Hello Devs 👋 preseting you the 
 Image Playbot🔥 - A Simple Vannila JS Image Classification AI app powered by Google's PaLM Api and Huggingface Transformers.js library
 
 ## Screenshot
