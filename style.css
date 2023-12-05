@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, var(--grad-color1), var(--grad-color2), var(--grad-color3), var(--grad-color4), var(--grad-color5)  );
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+
+:root {
+    --grad-color1: #eeaf61;
+    --grad-color2: #fb9062;
+    --grad-color3: #ee5d6c;
+    --grad-color4: #ce4993;
+    --grad-color5: #6a0d83;
+}
+
+h2, h3 {
+    margin: 5px;
+}
+
+.container {
+    margin: 40px auto;
+    width: max(50vw, 400px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-file-upload {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 8px 16px;
+    cursor: pointer;
+	border-radius: 6px;
+}
+
+#file-upload {
+    display: none;
+}
+
+.upload-icon {
+    width: 30px;
+}
+
+#image-container {
+    height:500px;
+    width: 500px;
+    margin-top: 20px;
+    position: relative;
+}
+
+#image-container>img {
+    width: 100%;
+}
+
+.bounding-box {
+    position: absolute;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.bounding-box-label {
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    margin-top: -16px;
+    margin-left: -2px;
+    padding: 1px;
+}
